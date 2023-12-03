@@ -50,17 +50,13 @@ La administración de caminos no solo se trata de trazar rutas en el mapa, sino 
 
 Un administrador tendrá la opción de Leer, Crear, Modificar y Eliminar "Puntos de Interés". Estas pueden ser utilizadas como referencia de un conjunto de pines ("Ubicaciones") que comparten una misma descripción, logo y horarios (ej: baños o una atracción que quieres que aparezca en varios mapas).
 
+Cada "Punto de Interés" también tendrá la opción de agregar descripciones dinámicas e infografías, las cuales ayudarán a enriquecer la información de los pines utilizando imágenes, videos que podrá verse por el usuario en el detalle luego de seleccionar y abrir un pin.
+
 Por cada "Punto de Interés", un administrador tendrá la opción de:
 
-* Leer, Crear, Modificar y Eliminar "Ubicaciones", los cuales representan un "pin" en el mapa seleccionado. Cada uno de estas "ubicaciones" podrá tener un nombre especifico, una ubicación en las coordenadas seleccionadas dentro del mapa, una prioridad (la cual representa con cuanto zoom se podrá ver el pin), varias imágenes y un "Pin personalizado" (el cual se refiere a un icono especifico que representará el pin).
+* Leer, Crear, Modificar y Eliminar "Ubicaciones", los cuales representan un "pin" en el mapa seleccionado. Cada una de estas "ubicaciones" podrá tener un nombre especifico, una ubicación en las coordenadas seleccionadas dentro del mapa, una prioridad (la cual representa con cuanto zoom se podrá ver el pin), una o varias imágenes y un "Pin personalizado" (el cual se refiere a un icono especifico que representará el pin).
 
-La capacidad de asociar imágenes, nombres específicos y pines personalizados a cada ubicación mejora significativamente la experiencia del usuario al proporcionar información visualmente rica y detallada
-
-### Personalización de Pines
-
-Un administrador tendrá la opción de Leer, Crear, Modificar y Eliminar "Pines personalizados". Los cuales pueden ser utilizados para hacer que las "ubicaciones" tengan distintos iconos que representen el pin en el mapa.
-
-Cada pin personalizado está compuesto por un Nombre y una Imagen. El nombre proporciona una referencia exclusiva para que el administrador pueda identificar fácilmente el pin al utilizarlo. En contraste, la imagen asociada al pin debe ser de tamaño reducido, priorizando la agilidad de uso para los usuarios. Estas imágenes están diseñadas de manera que su centro apunte al punto medio de la zona inferior, proporcionando una referencia visual clara para las coordenadas de la "ubicación" que utilice dicho pin. Esta cuidadosa consideración en el diseño garantiza una experiencia intuitiva y eficiente tanto para los administradores como para los usuarios finales.
+La capacidad de asociar imágenes, nombres específicos y pines personalizados a cada ubicación mejora significativamente la experiencia del usuario al proporcionar información visualmente rica y detallada.
 
 ### Administración de Horarios
 
@@ -69,6 +65,20 @@ Un administrador tendrá la opción de Leer, Crear, Modificar y Eliminar "Horari
 Estos horarios tienen una hora de inicio, una hora de termino y un dia de la semana por lo que será necesario crear al menos uno por cada dia de la semana que la "punto de interés".
 
 La gestión de horarios es crucial para la operatividad eficiente de cada "punto de interés". Al establecer horarios específicos para cada día de la semana, los administradores garantizan que los usuarios tengan información actualizada sobre cuándo pueden visitar cada ubicación. Esta función no solo mejora la experiencia del usuario al proporcionar información precisa, sino que también optimiza la operación del lugar al garantizar la disponibilidad y funcionalidad en momentos específicos.
+
+### Contornos de Pines
+
+Un administrador tendrá la opción de Editar una "Ubicación" de un "Punto de Interés" para definir contornos de la ubicación. Estos pueden ser utilizados para demarcar una zona geográfica que tenga cierta relación con la ubicación en cuestión, es decir, todo el área que pueda cubrir el punto de interés.
+
+Cada ubicación tendrá la opción de personalizar el color de el contorno o dejar el color por defecto de la aplicación.
+
+Gracias a esto, se podrá mejorar la experiencia de usuario de manera que cuando éste seleccione un pin, se demarque el área que tiene relación con el mismo.
+
+### Personalización de Pines
+
+Un administrador tendrá la opción de Leer, Crear, Modificar y Eliminar "Pines personalizados". Los cuales pueden ser utilizados para hacer que las "ubicaciones" tengan distintos iconos que representen el pin en el mapa.
+
+Cada pin personalizado está compuesto por un Nombre y una Imagen. El nombre proporciona una referencia exclusiva para que el administrador pueda identificar fácilmente el pin al utilizarlo. En contraste, la imagen asociada al pin debe ser de tamaño reducido, priorizando la agilidad de uso para los usuarios. Estas imágenes están diseñadas de manera que su centro apunte al punto medio de la zona inferior, proporcionando una referencia visual clara para las coordenadas de la "ubicación" que utilice dicho pin. Esta cuidadosa consideración en el diseño garantiza una experiencia intuitiva y eficiente tanto para los administradores como para los usuarios finales.
 
 ### Administración de Notificaciones
 
