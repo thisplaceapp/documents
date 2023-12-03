@@ -20,43 +20,48 @@ Cada usuario de la aplicación tendrá sus propios permisos definidos por los ad
 
 ### Selección de lugares
 
-La selección de lugares es una funcionalidad básica que aparecerá como la primera vista que tendrán todos los usuarios. En esta vista se mostrarán todos los lugares que estén asociados con This Place App, los cuales estarán ordenados por distancia para facilitar el acceso al lugar en donde está el usuario.
+La selección de lugares es esencial para que los usuarios encuentren rápidamente los destinos asociados con This Place App. Esta función ofrece una vista inicial con una lista ordenada por distancia, facilitando la elección del lugar más cercano. Además, permite a los usuarios explorar todos los lugares antes de llegar, brindando una experiencia más informada y personalizada.
 
-Gracias a esto, el usuario podrá ademas de seleccionar el lugar mas cercano, buscar todos los lugares que estén relacionados a This Place App incluso antes de llegar al lugar.
+Esta funcionalidad beneficia a los usuarios al proporcionar acceso rápido a destinos cercanos y mejorar la planificación de visitas a lugares específicos, aumentando la eficiencia y satisfacción del usuario.
 
 ### Selección de mapas/pisos
 
-En ciertos lugares, existirá la opción de seleccionar el 'piso' en el que el usuario se encuentre. Los administradores del lugar podrán definir distintos mapas bases y pines acorde al piso en que se encuentre el usuario, por lo que el usuario podrá tener una vista mas clara y enriquecida de los sectores que dividan el lugar.
+En ciertos lugares, la opción de seleccionar el 'piso' proporciona una experiencia más detallada. Los administradores pueden definir mapas y pines específicos para cada piso, ofreciendo a los usuarios una vista enriquecida de los diferentes sectores del lugar. Esto permite una orientación más precisa y eficiente dentro del espacio, mejorando la experiencia de navegación del usuario.
+
+Esta funcionalidad beneficia a los usuarios al proporcionar información detallada y específica de cada piso, facilitando la exploración y comprensión del lugar.
 
 ### Búsqueda de pines
 
-<!-- para que se usa y beneficios -->
-En cada lugar, los usuarios podrán buscar los pines que tenga disponible el lugar, ya sean tiendas, atracciones, esculturas o puntos de interés en general. De esta forma, si un usurario quiere encontrar un lugar que no puede ver directamente en el mapa, podrá ir a la búsqueda de pines y seleccionar el pin que está buscando.
+La búsqueda de pines permite a los usuarios encontrar rápidamente tiendas, atracciones o puntos de interés en un lugar. Si un usuario busca algo no visible en el mapa, esta función le permite localizar y seleccionar el pin deseado. Facilita la exploración y descubrimiento de lugares, ofreciendo una experiencia más completa.
 
-Con esto, la aplicación redirigirá al usuario hacia la ubicación del pin, de forma que pueda ver toda la información necesaria para encontrar lo que busca.
+Esta funcionalidad beneficia a los usuarios al proporcionar una herramienta de búsqueda eficiente, mejorando la accesibilidad y la capacidad de descubrimiento en el lugar.
 
 ### Notificaciones
 
-Los administradores de lugares tendrán la opción de mostrar mensajes de notificación a los usuarios que ingresan a su lugar. Donde los usuarios tendrán la opción de ver estos mensajes en en todo momento utilizando una vista especial con todas las informaciones.
+La función de notificaciones permite a los administradores enviar mensajes importantes a los usuarios que ingresan al lugar. Los usuarios pueden acceder a estos mensajes en cualquier momento, proporcionando información relevante, como eventos programados, cambios en los horarios de atención o alertas. Esta característica mejora la comunicación entre administradores y usuarios, garantizando una experiencia más informada y segura.
 
-Es importante mencionar que estas notificaciones no son mensajes 'push up' para los usuarios, mas bien será información extra que esté asociada al lugar completo.
-
-Esta información puede ser útil para los usuarios que estén visitando su lugar, ya sea por eventos programados, irregularidades en los horarios de atención, alertas de peligros y/o beneficios que los usuario puedan aprovechar por tiempo limitado.
+Esta funcionalidad beneficia a los usuarios al mantenerlos actualizados sobre eventos y cambios importantes en el lugar, mejorando la experiencia general de la visita.
 
 ### Muestra de pines según zoom
 
-En cada mapa/piso del lugar, los administradores fijarán la importancia de los pines, esto significa que, cuando un usuario recién entra al lugar, solo verán algunos de los pines, lo cual cambiará a medida que el usuario agrande o encoja el zoom.
+La importancia de los pines varía según el zoom del usuario, garantizando una experiencia de mapa clara y no saturada. Al ingresar al lugar, los usuarios ven solo los pines esenciales, lo que evita la sobrecarga visual. Esta función mejora la navegación al proporcionar información relevante según la proximidad del usuario a los puntos de interés.
 
-De esta forma, el mapa no estará saturado con todos los puntos de interés que los administradores quieran mostrar, incluso los puntos que no tengan tanta importancia pero sean de utilidad cuando el usuario está cerca.
+Esta funcionalidad beneficia a los usuarios al optimizar la visualización del mapa, ofreciendo información precisa y útil en momentos específicos durante su visita.
 
 ### Selección de un pin
 
-<!-- para que se usa y beneficios -->
+En la vista principal de un lugar, los usuarios pueden explorar georeferenciadamente todos los pines disponibles. Al seleccionar un pin, se muestran el nombre y el logo del punto de interés, facilitando la búsqueda y identificación de lugares específicos.
+
+Esta funcionalidad beneficia a los usuarios al proporcionar una manera fácil y rápida de encontrar puntos de interés en el mapa, mejorando la eficiencia y la experiencia de navegación.
 
 ### Detalles de un pin
 
-<!-- para que se usa y beneficios -->
+Después de seleccionar un pin, los usuarios pueden acceder a información detallada, como descripciones, infografías, imágenes y horarios proporcionados por los administradores. Esto ofrece una comprensión más completa del punto de interés, mejorando la toma de decisiones del usuario.
 
-### Comentarios en un pin
+Esta funcionalidad beneficia a los usuarios al proporcionar detalles específicos sobre los puntos de interés, mejorando la experiencia de exploración y permitiendo decisiones más informadas.
 
-<!-- para que se usa y beneficios -->
+<!-- ### Comentarios en un pin -->
+
+<!-- Dentro de los detalles de un pin, cuando un usuario cree una cuenta, existirá la opción de realizar comentarios sobre el punto de interés.
+
+Gracias a esto, los administradores y el resto del publico serán capaces de visualizar la opinion general del publico sobre el punto de interés y tomar las medidas correspondientes que crean necesarias -->
