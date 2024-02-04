@@ -12,13 +12,13 @@ Las funcionalidades descritas a continuación serán las funcionalidades complet
 
 Cada usuario de la aplicación tendrá sus propios permisos definidos por los administradores de This Place App, los cuales pueden ser consultados al momento de firmar el CONTRATO DE LICENCIA DE USO DE SOFTWARE.
 
-Todas las funcionalidades descritas a continuación serán exclusivamente para ser utilizadas en el "lugar" al cual se firmó el CONTRATO DE LICENCIA DE USO DE SOFTWARE, donde se asumirá que el administrador ya tiene acceso a una cuenta con todos los permisos correspondientes.
+Todas las funcionalidades descritas a continuación serán exclusivamente para ser utilizadas en el 'lugar' que firmó el CONTRATO DE LICENCIA DE USO DE SOFTWARE, donde se asumirá que el administrador ya tiene acceso a una cuenta con todos los permisos correspondientes.
 
 ## 2. Funcionalidades
 
 ### Administración del lugar
 
-Un administrador tendrá la opción de Leer y Modificar el lugar para el que se definió el contrato. En el lugar se podrá modificar la Descripción y el Logo que se mostrará a los clientes en la vista inicial de la aplicación.
+Un administrador tendrá la opción de Leer y Modificar el lugar para el que se definió el contrato. En el lugar, el administrador podrá modificar la Descripción y el Logo que se mostrará a los clientes en la vista inicial de la aplicación.
 
 La función de administración del lugar confiere al usuario administrador un control total sobre la representación visual del lugar en la aplicación. Desde la descripción general hasta la identidad visual a través del logo, el administrador puede personalizar la primera impresión que los usuarios tienen al acceder a This Place App. Esta capacidad de adaptación es esencial para garantizar que la aplicación se alinee de manera efectiva con la identidad y los valores específicos de cada lugar.
 
@@ -32,13 +32,13 @@ La función de administración del lugar confiere al usuario administrador un co
 
 ### Administración de Mapas
 
-Un administrador tendrá la opciones de Leer, Crear, Modificar y Eliminar "Mapas", que pueden representar una nueva área dentro del lugar que utiliza la licencia, ya sean distintos pisos o enfoques a distintas áreas que el lugar quiera definir.
+Un administrador tendrá la opción de Leer, Crear, Modificar y Eliminar "Mapas", que pueden representar una nueva área dentro del lugar que utiliza la licencia, ya sea en distintos pisos o enfoques a diversas áreas que el lugar desee definir.
 
 Estos mapas tienen un Nombre, un número de piso, una url de tiles (la cual se utiliza para definir contornos personalizados) y un área que debe cubrir todos los lugares donde se podrían agregar pines.
 
 En caso de que un administrador desee utilizar los contornos personalizados (url de tiles), deberá entregar una imagen a escala del lugar o en su defecto solicitar una a This Place App por un costo adicional acorde al tamaño y diversidad del lugar.
 
-La gestión de mapas no se limita simplemente a la creación de representaciones visuales; va más allá al permitir la definición de áreas específicas dentro del lugar licenciado. Los administradores tienen la capacidad de crear experiencias de usuario más ricas y detalladas. Esta función es especialmente valiosa al representar áreas complejas o distintos niveles dentro del lugar, brindando a los usuarios una navegación clara y precisa.
+La gestión de mapas no se limita únicamente a la creación de representaciones visuales; va más allá al permitir la definición de áreas específicas dentro del lugar licenciado. Los administradores tienen la capacidad de crear experiencias de usuario más ricas y detalladas. Esta función es especialmente valiosa al representar áreas complejas o distintos niveles dentro del lugar, brindando a los usuarios una navegación clara y precisa.
 
 #### Modo de uso
 
@@ -63,7 +63,7 @@ La gestión de mapas no se limita simplemente a la creación de representaciones
 
 ### Administración de Caminos
 
-Un administrador podrá Leer, Crear, Modificar y Eliminar "Caminos". Los cuales podrán ser utilizados para mostrar los lugares por los cuales los usuarios pueden caminar. Estos podrán ser utilizados para calcular el mejor camino entre la ubicación por GPS del usuario y una "Ubicación".
+Un administrador podrá Leer, Crear, Modificar y Eliminar "Caminos". Los cuales se pueden usar para mostrar los lugares por los que los usuarios pueden caminar. Estos podrán ser utilizados para calcular el mejor camino entre la ubicación por GPS del usuario y una "Ubicación".
 
 Cada camino tiene:
 
@@ -71,7 +71,7 @@ Cada camino tiene:
 * Ancho y Color: Los cual definen que tan ancho es un camino y el color que tendrá al mostrarse en la aplicación.
 * Conjunto de nodos: Son referencias de puntos geográficos por los que pasa el camino.
 
-Para facilitar que los caminos estén correctamente referenciados geográficamente, en lugar de crear el camino manualmente se da la opción de subir un archivo gpx que contenga todos los nodos iniciales del camino. Debido a que el gps al momento de mapear el camino no siempre es preciso y para mejorar la fluidez de visualizar el mapa por los usuarios, se recomienda editar los caminos subidos de esta forma, para dejar solamente los nodos que se estimen convenientes.
+Para facilitar que los caminos estén correctamente referenciados geográficamente, en lugar de crear el camino manualmente se da la opción de subir un archivo gpx que contenga todos los nodos iniciales del camino. Debido a que el GPS al mapear el camino no siempre es preciso y para mejorar la fluidez de visualizar el mapa por los usuarios, se recomienda editar los caminos subidos de esta forma, para dejar solamente los nodos que se estimen convenientes.
 
 La administración de caminos no solo se trata de trazar rutas en el mapa, sino de ofrecer una experiencia de usuario fluida y precisa. Al permitir la creación y modificación de caminos, los administradores pueden definir no solo la apariencia visual de las rutas, sino también los puntos geográficos exactos por los que pasan. La opción de subir archivos GPX añade una capa adicional de precisión, asegurando que los caminos estén perfectamente alineados con la topografía del lugar.
 
@@ -225,7 +225,7 @@ La gestión de horarios es crucial para la operatividad eficiente de cada "punto
 
 ### Contornos de Pines
 
-Un administrador tendrá la opción de Editar una "Ubicación" de un "Punto de Interés" para definir contornos de la ubicación. Estos pueden ser utilizados para demarcar una zona geográfica que tenga cierta relación con la ubicación en cuestión, es decir, todo el área que pueda cubrir el punto de interés.
+Un administrador tendrá la opción de Editar una "Ubicación" de un "Punto de Interés" para definir contornos de la ubicación. Estos pueden ser utilizados para demarcar una zona geográfica que tenga cierta relación con la ubicación en cuestión, es decir, el área que pueda cubrir el punto de interés.
 
 Cada ubicación tendrá la opción de personalizar el color de el contorno o dejar el color por defecto de la aplicación.
 
@@ -245,7 +245,7 @@ Gracias a esto, se podrá mejorar la experiencia de usuario de manera que cuando
 
 Un administrador tendrá la opción de Leer, Crear, Modificar y Eliminar "Pines personalizados". Los cuales pueden ser utilizados para hacer que las "ubicaciones" tengan distintos iconos que representen el pin en el mapa.
 
-Cada pin personalizado está compuesto por un Nombre y una Imagen. El nombre proporciona una referencia exclusiva para que el administrador pueda identificar fácilmente el pin al utilizarlo. En contraste, la imagen asociada al pin debe ser de tamaño reducido, priorizando la agilidad de uso para los usuarios. Estas imágenes están diseñadas de manera que su centro apunte al punto medio de la zona inferior, proporcionando una referencia visual clara para las coordenadas de la "ubicación" que utilice dicho pin. Esta cuidadosa consideración en el diseño garantiza una experiencia intuitiva y eficiente tanto para los administradores como para los usuarios finales.
+Cada pin personalizado está compuesto por un nombre y una imagen. El nombre proporciona una referencia exclusiva para que el administrador pueda identificar fácilmente el pin al utilizarlo. En contraste, la imagen asociada al pin debe ser de tamaño reducido, priorizando la agilidad de uso para los usuarios. Estas imágenes están diseñadas de manera que su centro apunte al punto medio de la zona inferior, proporcionando una referencia visual clara para las coordenadas de la "ubicación" que utilice dicho pin. Esta cuidadosa consideración en el diseño garantiza una experiencia intuitiva y eficiente tanto para los administradores como para los usuarios finales.
 
 #### Modo de uso
 
@@ -274,7 +274,7 @@ Cada pin personalizado está compuesto por un Nombre y una Imagen. El nombre pro
 
 ### Administración de Notificaciones
 
-Un administrador podrá Leer, Crear, Modificar y Eliminar "Notificaciones", las cuales pueden ser utilizadas para mostrar informaciones o advertencias recientes que puedan ser relevantes para los usuarios que están en el lugar.
+Un administrador podrá Leer, Crear, Modificar y Eliminar "Notificaciones", las cuales pueden ser utilizadas para mostrar información o advertencias recientes que puedan ser relevantes para los usuarios que están en el lugar.
 
 Una notificación tiene Nombre, Descripción y si está activa. Donde los usuarios solo podrán ver nombre y descripción de las notificaciones activas.
 
