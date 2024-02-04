@@ -79,7 +79,9 @@ Esta funcionalidad beneficia a los usuarios al optimizar la visualización del m
 
 #### Modo de uso
 
-*
+* Seleccionar el lugar
+* Alejar o acercar el zoom de una zona del mapa seleccionado
+* *Debieran ir apareciendo pines al acercar el zoom y desapareciendo pines al alejar el zoom (de forma de que mientras mas lejano sea el zoom, solo se vean los pines de mayor relevancia)*
 
 ### Selección de un pin
 
@@ -89,7 +91,9 @@ Esta funcionalidad beneficia a los usuarios al proporcionar una manera fácil y 
 
 #### Modo de uso
 
-*
+* Seleccionar el lugar
+* Buscar un pin en el mapa y hacerle click
+* *Debiera aparecer al menos el nombre y logo del punto de interés en un cuadro de la parte inferior de la pantalla*
 
 ### Detalles de un pin
 
@@ -99,7 +103,10 @@ Esta funcionalidad beneficia a los usuarios al proporcionar detalles específico
 
 #### Modo de uso
 
-*
+* Seleccionar el lugar
+* Seleccionar el pin
+* Arrastrar el cuadro inferior hacia la zona superior de la pantalla
+* *Debiera agrandarse la zona donde se muestra la información importante del punto de interés, en la cual se debiera poder navegar para ver texto, imágenes, horarios, etc. Acorde a lo que los administradores han agregado.*
 
 <!-- ### Comentarios en un pin -->
 
